@@ -1,9 +1,9 @@
 #!/usr/bin/python3
 
 if __name__ "__name__":
-    """my maths calculations"""
+    """my basic arithematic calculations"""
 
-    import calculator_1
+    from calculator_1 import add, sub, mul, div
 
     a = 10
     b = 5
