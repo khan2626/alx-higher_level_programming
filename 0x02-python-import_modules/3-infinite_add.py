@@ -4,10 +4,9 @@ if __name__ == "__main__":
     """prints the sum of all arguments."""
     import sys
 
-    sum = 0
-    args = len(sys.argv) - 1
+    total = 0
 
-    for i in range(args):
-        arg = int(sys.argv[i + 1])
-        sum += arg
-        print("{}".format(sum))
+    for i in range(len(sys.argv) - 1):
+        total += int(sys.argv[i + 1])
+    print("{}".format(total))
+    
