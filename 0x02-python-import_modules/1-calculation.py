@@ -1,8 +1,7 @@
 #!/usr/bin/python3
 
-if __name__ "__name__":
+if __name__ == "__name__":
     """my basic arithematic calculations"""
-
     from calculator_1 import add, sub, mul, div
 
     a = 10
