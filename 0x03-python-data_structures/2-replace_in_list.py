@@ -1,9 +1,9 @@
 #!/usr/bin/python3
-#2-replace_in_list.py
+# 2-replace_in_list.py
+
 
 def replace_in_list(my_list, idx, element):
     """replaces element of a list at idx"""
-
     for i in my_list:
         if idx < 0 or idx > len(my_list):
             return (my_list)
