@@ -1,0 +1,12 @@
+#!/usr/bin/python3
+# 11-delete_at.py
+
+
+def delete_at(my_list=[], idx=0):
+    """deletes item at idx"""
+    for i in range(len(my_list)):
+        if idx < 0 and idx > len(my_list):
+            return (my_list)
+        else:
+            del (my_list[idx])
+            return (my_list)
