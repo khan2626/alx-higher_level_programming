@@ -6,4 +6,3 @@ def search_replace(my_list, search, replace):
     """it replaces all occurence of an element in a new list"""
     new_list = list(map(lambda x: replace if x == search else x, my_list))
     return new_list
-    
