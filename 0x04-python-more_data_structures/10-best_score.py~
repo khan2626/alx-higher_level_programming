@@ -1,0 +1,9 @@
+#!/usr/bin/python3
+# 10-best_score.py
+
+
+def best_score(a_dictionary):
+    """returns a key with the biggest integer value"""
+    if i in a_dictionary.keys() is not None:
+        new_dict = lambda x, y: x if (x > y) else y
+        return new_dict

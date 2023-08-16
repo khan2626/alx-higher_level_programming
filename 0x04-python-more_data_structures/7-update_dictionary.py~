@@ -1,0 +1,13 @@
+#!/usr/bin/python3
+# 7-update_dictionary.py
+
+
+def update_dictionary(a_dictionary, key, value):
+    """it replaces or adds key/value in a dictionary"""
+    for i in a_dictionary:
+        if key == a_dictionary[i]:
+            a_dictionary[i] = value
+        else:
+            a_dictionary[i] += value
+
+        return(a_dictionary)
