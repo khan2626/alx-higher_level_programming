@@ -1,0 +1,11 @@
+#!/usr/bin/python3
+# 1-my_list.py
+"""it defines a class mylist"""
+
+
+class MyList(list):
+    """it represent class Mylist"""
+    def print_sorted(self):
+        """it prints sorted list"""
+        sorted_list = sorted(self)
+        print(sorted_list)
